@@ -7,11 +7,11 @@ __pycache__/
 venv/
 env/
 
-data/*.csv
-data/*.png
-data/*.pdf
+data/*
+!data/.gitkeep
 Kaggle/
 .cache/
-outputs/
+outputs/*
+!outputs/.gitkeep
 
 .ipynb_checkpoints/
