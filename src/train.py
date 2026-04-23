@@ -106,7 +106,6 @@ def main() -> None:
         train_dataset=dataset["train"],
         eval_dataset=dataset["validation"],
         data_collator=collator,
-        tokenizer=tokenizer,
     )
 
     trainer.train()
